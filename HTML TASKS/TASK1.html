@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <title>Exercise #1</title>
+    <title>Exercise #1</title>
 </head>
 
 <body>
-   <h1>Heading #1</h1>
-   <h2>Heading #1</h2>
-   <h3>Heading #1</h3>
-   <h4>Heading #1</h4>
-   <h5>Heading #1</h5>
-   <h6>Heading #1</h6>
+    <form method="get">
+        <label>email</label>
+        <input type="email" value="o@o.com" required disabled>
+        <br>
+        <label>token</label>
+        <input type="token" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+        <br>
+        <label>username</label>
+        <input type="text" autofocus min="5" max="20">
+        <br>
+        <input type="reset" name="empty">
+        <input type="submit" name="send" value="send">
+        <hr>
+        <div>
+            <label>choose one of them</label>
+            <br>
+            <input type="checkbox">
+            <label> sssd</label>
+            <br>
+            <input type="checkbox">
+            <label> sssd</label>
+            <br>
+
+            <input type="checkbox">
+            <label> sssd</label>
+            <br>
+
+        </div>
+
+        <div>
+
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+
+        </div>
+
+        <label for="n"> choose one of them</label>
+        <select id="n" name="book">
+            <optgroup label="romance">
+                <option selected>book 1</option>
+                <option>book 1</option>
+                <option>book 1</option>
+            </optgroup>
+            <optgroup label="crime">
+                <option>book 1</option>
+                <option>book 1</option>
+                <option>book 1</option>
+            </optgroup>
 
 
+        </select>
+
+
+
+
+
+
+    </form>
 
 
 </body>
+
 
 </html>
