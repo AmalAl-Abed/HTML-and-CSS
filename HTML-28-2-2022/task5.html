@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <table border="2">
+    <table border="2" style="margin: auto; width: 800px;">
         <thead>
             <tr>
                 <th colspan="4">Assignment</th>
@@ -18,16 +18,78 @@
                 <th rowspan="3">student</th>
                 <th>name</th>
                 <th>hashem</th>
-                <th><a href="https://www.youtube.com/">www.zu.edu.jo</a></th>
+                <th rowspan="3"><a href="https://www.youtube.com/">www.zu.edu.jo</a><br><br><br>
+                    <img src="https://html.com/wp-content/uploads/very-large-flamingo.jpg" width=100px>
+                </th>
 
 
             </tr>
             <tr>
-                <th>name</th>
-                <th>hashem</th>
+                <th>Email</th>
                 <th><a href="https://www.youtube.com/">www.zu.edu.jo</a></th>
+                </TH>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>2022201</th>
 
             </tr>
+            <tr>
+                <th>courses</th>
+                <th colspan="3" style="text-align: left;">
+                    <ol>
+                        <li>programmimg lang.</li>
+                        <ol>
+                            <li>C#</li>
+                            <li>java</li>
+                            <li>python</li>
+                        </ol>
+                        <li>math</li>
+                        <ul type="square">
+                            &#9633 Calculas 1 <br>
+                            &#9633 algebra
+                        </ul>
+                    </ol>
+                </th>
+
+            </tr>
+
+            <th colspan="4" style="text-align: left;">
+                <h2>create new email</h2>
+                <p>this form is to create anew email at just</p>
+                <form>
+
+                    <label>firstname:</label>
+                    <input type="text">
+                    <br> <br>
+                    <label>lastname:</label>
+                    <input type="text">
+                    <br> <br>
+                    <label>username:</label>
+                    <input type="text" placeholder="name@just.com"> (name@domain.com)
+                    <br> <br>
+
+                    <label>password:</label>
+                    <input type="password" required> you must enter password
+                    <br><br>
+                    <label>BD:</label>
+                    <input type="date">
+                    <Br><br>
+                    <label>Mobile num</label>
+                    <input type="number" placeholder="(###)######">
+
+                    <br> <br>
+
+                    sex<select name="gender" value="sex">
+
+                        <option>female</option>
+                        <option selected>male</option>
+                    </select>
+                    <br> <br>
+                    <input type="button" value="submit" name="login">
+                    <input type="button" value="reset" name="reset">
+                </form>
+            </th>
         </thead>
     </table>
 </body>
