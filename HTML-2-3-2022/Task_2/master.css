@@ -1,0 +1,22 @@
+div{
+  
+    background-image:url("https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg");
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: brown;
+    background-color: rgb(255, 163, 163);
+}
+
+#a{
+    color: rgb(211, 62, 62);
+   
+}
+#c{
+    padding: 10% 40% 90% 5%;
+    text-align: center;
+}
