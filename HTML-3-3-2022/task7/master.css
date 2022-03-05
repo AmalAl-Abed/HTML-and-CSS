@@ -1,0 +1,23 @@
+.a{
+    display: inline-block;
+    background-color: red;
+    width: 90px;
+    height: 35px;
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid black;
+}
+
+.b{
+    display: inline-block;
+    background-color: red;
+    width: 70px;
+    height: 35px;
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+    display: none;
+}
