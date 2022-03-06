@@ -1,0 +1,20 @@
+div{
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+    animation-name:nar ;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes nar {
+
+   0% {background-image: linear-gradient(to right, #ffc0cb,#fd627c);left: 20%;top: 0%;}
+    25% { background-image: linear-gradient(to right, #ffc0cb,#fd627c);left: 50%; top: 0%;}
+   50% { background-image: linear-gradient(to bottom,#a6d7ff, #37aac7);left: 50%; top: 25%;}
+ 70% { background-image: linear-gradient(to bottom,#a6d7ff, #37aac7);left:0%; top: 25%;}
+ 90%{background-image: linear-gradient(to left, #9c5e68,#661a27);left: 0%;top: 0%;}
+ 100%{background-image: linear-gradient(to left, #323309,#c9b9bc);left: 20%;top: 0%;}  
+ 
+}

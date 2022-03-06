@@ -1,0 +1,56 @@
+.parent{
+    width: 50px;
+    height: 150px;
+    background-color: black;
+    border-radius: 5px;
+}
+.parent div{
+    width: 40px;
+    background-color: gray;
+    height: 40px;
+    margin: 7px;
+    border-radius: 100%;
+    position: relative;
+    top: 7px;
+    right: 3px;
+}
+
+
+@keyframes red {
+    0% {background-color: red;}
+    
+  }
+
+  .a{
+
+    animation-name: red;
+    animation-duration: 1s;
+  }
+
+
+  @keyframes yellow {
+    0% {background-color: yellow;}
+    
+  }
+
+  .b{
+
+    animation-name: yellow;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+
+  @keyframes green {
+    0% {background-color: green;}
+    
+  }
+
+  .c{
+
+    animation-name: green;
+    animation-duration: 1s;
+    animation-delay: 3s;
+  }
+
+
+

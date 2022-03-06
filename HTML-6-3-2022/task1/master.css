@@ -1,0 +1,25 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s;
+
+  }
+  
+.a:hover{
+ width: 300px;
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    transition: width 2s ,height 2s;
+
+  }
+  
+.b:hover{
+ height: 300px;
+ width: 300px;
+}
