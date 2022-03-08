@@ -1,0 +1,8 @@
+@media print {
+    p{color: brown;}
+
+    .noPrint
+    {
+        display: none !important;
+    }
+}
