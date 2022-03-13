@@ -159,6 +159,7 @@ left: 160px;
     padding: 15px;
     
 }
+
 .about a,p ,h3 {
     font-size: 20px;
     text-align: center;
@@ -207,7 +208,7 @@ left: 160px;
 
 .card{
    
-    width: 15rem;
+    width: 17em;
     border-radius: 20%;
     box-shadow: 0 5px 20px rgb(100, 97, 97);
     padding: 30px;
@@ -221,9 +222,9 @@ left: 160px;
     justify-content: center;
 align-items: center;
 }
- .info h2{
-left: 41px;
- }
+.info h2{
+    left: 60px;
+     }
 
 
  .card:hover
